@@ -7,9 +7,9 @@ import { NavLink } from 'react-router-dom';
 
 function PageNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="custom-navbar">
       <Container>
-        <Navbar.Brand as={NavLink} to="/">ReviveMart</Navbar.Brand>
+        <div className='title'><Navbar.Brand as={NavLink} to="/">ReviveMart</Navbar.Brand></div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

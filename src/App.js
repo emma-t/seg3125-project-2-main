@@ -9,6 +9,7 @@ import About from './pages/About';
 import FAQReviews from './pages/FAQReviews';
 import Contact from './pages/Contact';
 import PageNavbar from './components/PageNavbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -26,8 +27,10 @@ function App() {
           <Route path="/faq-reviews" element={<FAQReviews />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
+    
   );
 }
 

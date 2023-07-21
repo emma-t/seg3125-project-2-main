@@ -12,6 +12,101 @@ code {
     monospace;
 }
 
+h1 {
+  font-family: 'Margarine', sans-serif;
+}
+h2 {
+  font-family: 'Margarine', sans-serif;
+}
+
+.title {
+  font-family: 'Margarine', sans-serif;
+}
+
+.custom-navbar {
+  background-color: #27AA60;
+}
+
+.intro {
+  background-color: #27AA60;
+  padding-right: 120px; 
+  display: flex;
+  align-items: center;
+}
+
+.intro img {
+  max-width: 150px; 
+  margin-left: 120px;
+}
+
+.donate {
+  background-color: #10451D;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.donate p {
+  padding-right: 20%; 
+  padding-left: 20%; 
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.donate .btn{
+  background-color: #4AD66D;
+  color: black;
+  width: 10%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.donate .btn:hover {
+  background-color: #27AA60;
+}
+
+.shop {
+  background-color: #27AA60;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop p {
+  padding-right: 20%; 
+  padding-left: 20%; 
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.shop .btn{
+  background-color: #10451D;
+  color: white;
+  width: 10%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.shop .btn:hover {
+  background-color: #4AD66D;
+}
+
+.shop img {
+  max-width: 20%;
+  height: auto;
+  padding-top: 1%;
+}
+
+
 .chatbot-container {
   position: fixed;
   bottom: 20px;
