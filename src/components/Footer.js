@@ -15,7 +15,7 @@ function Footer() {
 }
 
 const footerStyle = {
-  backgroundColor: '#27AA60',
+  backgroundColor: '#4AD66D',
   padding: '10px',
   textAlign: 'center',
 };

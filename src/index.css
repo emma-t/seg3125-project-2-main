@@ -71,7 +71,7 @@ h2 {
 }
 
 .shop {
-  background-color: #27AA60;
+  background-color: #4AD66D;
   padding: 20px; 
   display: flex;
   flex-direction: column;
@@ -97,7 +97,7 @@ h2 {
 }
 
 .shop .btn:hover {
-  background-color: #4AD66D;
+  background-color: #27AA60;
 }
 
 .shop img {
