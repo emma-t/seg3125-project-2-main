@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 
-function Item({ image, title, amount, content, isVisible = true }) {
+function Item({image, title, amount, content, isVisible = true, alttext}) {
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => setShowModal(false);

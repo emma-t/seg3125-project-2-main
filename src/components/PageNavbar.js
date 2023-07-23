@@ -6,23 +6,22 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
 import i18n from '../i18n';
 import { useTranslation } from 'react-i18next';
-import LangContext from '../LangContext'
+import LangContext from '../LangContext';
 import { useContext } from 'react';
 
 const langs = {
-  English: {title: 'English'},
-  French: {title: 'French'}
+  English: { title: 'English' },
+  Français: { title: 'Français' }
 }
 
 function PageNavbar() {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
 
   const { lang } = useContext(LangContext);
 
-  function changeLang (l) {
+  function changeLang(l) {
     if (lang !== l) {
       i18n.changeLanguage(l);
-
     }
   }
   return (
@@ -38,8 +37,9 @@ function PageNavbar() {
             <Nav.Link as={NavLink} to="/about">{t('Navbar.AboutUs')}</Nav.Link>
             <Nav.Link as={NavLink} to="/faq-reviews">{t('Navbar.FAQReviews')}</Nav.Link>
             <Nav.Link as={NavLink} to="/contact">{t('Navbar.Contact')}</Nav.Link>
-          
-            <NavDropdown title={lang} id="basic-nav-dropdown">
+          </Nav>
+          <Nav className="justify-content-end"> {/* Add this line to move the NavDropdown to the right */}
+            <NavDropdown title={lang} id="basic-nav-dropdown" style={{ border: '1px solid white', borderRadius: '8px', backgroundColor: "white"}}>
               {Object.keys(langs).map((lang) => (
                 <NavDropdown.Item style={{ fontWeight: i18n.resolvedLanguage === lang ? 'bold' : 'normal' }} onClick={() => changeLang(lang)}>
                   {langs[lang].title}

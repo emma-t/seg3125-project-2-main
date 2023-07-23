@@ -42,7 +42,7 @@ i18n
                     }
                 }
             },
-            French: {
+            Français: {
                 translation: {
                     "Home": {
                         "title": "Des trésors respectueux de l'environnement vous attendent.",
