@@ -6,7 +6,7 @@ import ChatBot from "../components/ChatBot";
 
 function Donate() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid donate-page">
       <div className="row text-center">
         <h1>Thanks for your interest in donating!</h1>
         <h2>Book a time to donate your items <br /><br/></h2>
@@ -19,7 +19,7 @@ function Donate() {
               <div
                 className="progress-bar"
                 role="progressbar"
-                style={{ width: '33%'}}
+                style={{ width: '33%', backgroundColor: 'black'}}
                 aria-valuenow="33"
                 aria-valuemin="0"
                 aria-valuemax="100"

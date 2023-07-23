@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 function Times() {
   return (
     <Container>
-      <div class="column">
+      <div className="column time">
             <h3 class="center">Select a Time</h3>
 
             <div class="row g-2">

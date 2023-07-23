@@ -63,7 +63,7 @@ function InfoForm() {
           <div className="col-md-6">
             <div className="form-outline mb-4">
               <label className="form-label" style={{ float: 'left' }} htmlFor="form3Example4">Email</label>
-              <input type="email" id="form3Example4" className="form-control" placeholder="contact@bibliotech.com" required />
+              <input type="email" id="form3Example4" className="form-control" placeholder="contact@revivemart.com" required />
             </div>
           </div>
 
