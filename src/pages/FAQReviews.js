@@ -3,7 +3,7 @@ import ChatBot from "../components/ChatBot";
 
 function FAQReviews() {
   return (
-    <div className="container">
+    <div className="faq">
       <div className="row">
         <div className="col">
           <h3 className="mt-4">FAQ <i className="bi bi-patch-question-fill"></i></h3>

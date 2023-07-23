@@ -4,7 +4,7 @@ import ChatBot from "../components/ChatBot";
 function Contact() {
 
     return (
-        <div>
+        <div className="contact">
             <div className="text-center">
                 <h2>Contact Us</h2> <br />
             </div>
@@ -74,7 +74,7 @@ function Contact() {
                                         <textarea className="form-control" id="form4Example3" rows="5" required></textarea>
                                     </div>
                                     <div className="text-center text-md-start">
-                                        <button className="btn btn-primary" type="submit">Send Message</button>
+                                        <button className="btn btn-primary" type="submit" style={{ width: "40%", paddingLeft: "10px", paddingRight: "10px" }}>Send Message</button>
                                     </div>
                                 </div>
                             </div>
