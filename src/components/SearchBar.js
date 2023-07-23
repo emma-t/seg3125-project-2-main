@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Item from './Item';
+import SortBy from "../components/SortByDropdown";
 
 function SearchBar({ tutors, courses }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -64,6 +64,7 @@ function SearchBar({ tutors, courses }) {
               className="me-3"
             />
           ))}
+          <SortBy />
         </div>
 
         <div className="row justify-content-center">
