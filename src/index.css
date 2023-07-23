@@ -27,6 +27,16 @@ h2 {
   background-color: #27AA60;
 }
 
+.donate-link {
+  background-color: #1d8748;
+  border-radius: 8px;
+}
+
+.donate-link:hover {
+  background-color: #10451D;
+  color: white;
+}
+
 .intro {
   background-color: #27AA60;
   padding-right: 120px; 

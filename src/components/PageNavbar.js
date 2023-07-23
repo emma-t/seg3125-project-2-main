@@ -31,7 +31,9 @@ function PageNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={NavLink} to="/donate">{t('Navbar.Donate')}</Nav.Link>
+            <div className="donate-link">
+            <Nav.Link as={NavLink} to="/donate" style={{ color:"white"}}>{t('Navbar.Donate')}</Nav.Link>
+            </div>
             <Nav.Link as={NavLink} to="/items">{t('Navbar.Items')}</Nav.Link>
             <Nav.Link as={NavLink} to="/analytics">{t('Navbar.Analytics')}</Nav.Link>
             <Nav.Link as={NavLink} to="/about">{t('Navbar.AboutUs')}</Nav.Link>
