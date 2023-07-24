@@ -8,6 +8,7 @@ import i18n from '../i18n';
 import { useTranslation } from 'react-i18next';
 import LangContext from '../LangContext';
 import { useContext } from 'react';
+import logo from "../images/logo.png";
 
 const langs = {
   English: { title: 'English' },
@@ -27,7 +28,7 @@ function PageNavbar() {
   return (
     <Navbar expand="lg" className="custom-navbar">
       <Container>
-        <div className='title'><Navbar.Brand as={NavLink} to="/">ReviveMart</Navbar.Brand></div>
+        <div className='title'><Navbar.Brand as={NavLink} to="/"><img src={logo} alt="Logo" style={{ height: '40px', marginRight: '10px' }} />ReviveMart</Navbar.Brand></div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

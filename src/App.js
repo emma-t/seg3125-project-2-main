@@ -12,6 +12,7 @@ import About from './pages/About';
 import FAQReviews from './pages/FAQReviews';
 import Contact from './pages/Contact';
 import Analytics from './pages/Analytics';
+import NotFound from './pages/NotFound';
 import PageNavbar from './components/PageNavbar';
 import Footer from './components/Footer';
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/faq-reviews" element={<FAQReviews />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/analytics" element={<Analytics />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         </LangContext.Provider>

@@ -7,7 +7,7 @@ function Donate() {
     <div className="donate-page">
       <div className="row text-center">
         <h1>Thanks for your interest in donating!</h1>
-        <h2>Book a time to donate your items</h2>
+        <h2>Booking completed</h2>
       </div>
 
       <div className="row">
@@ -52,7 +52,7 @@ function Donate() {
           <div className="col">
             <div className="d-flex justify-content-center"> {/* Center the buttons */}
               <a
-                href="donate"
+                href="/donate"
                 className="btn btn-primary"
                 role="button"
                 style={{

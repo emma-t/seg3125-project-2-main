@@ -7,7 +7,7 @@ function Donate() {
         <div className="container-fluid donate-page">
             <div className="row text-center">
                 <h1>Thanks for your interest in donating!</h1>
-                <h2>Book a time to donate your items <br /><br/></h2>
+                <h2>Add your information to donate your items <br /><br/></h2>
             </div>
 
             <div className="row">
